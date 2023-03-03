@@ -1,0 +1,433 @@
+* {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #292734;
+}
+
+
+.container {
+    background-color: #363543;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    font-size: 1.20em;
+}
+
+.spn-1 {
+    font-size: 1.50em;
+}
+
+.child-1 {
+    display: flex;
+    align-items: center;
+}
+
+.child-3 {
+    padding-top: 1.25em;
+}
+
+.emoji {
+    height: 20px;
+    width: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.25em 0.60em 0em;
+}
+
+i {
+    padding-left: 0.60em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
+}
+
+
+.parent {
+    background-color: #363543;
+    color: #000;
+    height: 45vh;
+    display: flex;
+    padding-top: 6.20em;
+    justify-content: space-around;
+}
+
+.para-1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
+
+.heading-1 {
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+.heading-2 {
+    font-size: xx-large;
+}
+
+.spn-2 {
+    border-bottom: 3px solid #febe00;
+}
+
+.d2 {
+    border: 1px solid #2D2C3A;
+    border-radius: 250px;
+    width: 350px;
+    height: 350px;
+    background-color: #2D2C3A;
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-pic {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    left: 8px;
+    bottom: 2px ;
+    border-radius: 250px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.para-2 {
+    font-size: 1em;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.spn-3 {
+    color: #febe00;
+}
+
+.fa-solid {
+    color: #febe00;
+}
+
+.icons {
+    color: #febe00;
+}
+
+
+.cat {
+    border: 1px solid #403F4F;
+    background-color: #403F4F;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 10vh;
+    align-items: center;
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+}
+
+.ink {
+    height: 40px;
+    padding-left: 10px;
+}
+
+.kitten-1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2D2C3A;
+    width: 150px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #2D2C3A;
+}
+
+.font-big {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.font-cap {
+    font-size: 25px;
+}
+
+.font-large {
+    font-size: 25px;
+}
+
+.logosize-1 {
+    width: 85px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.kitten-2 {
+    border: 1px solid #2D2C3A;
+    width: 150px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #2D2C3A;
+}
+
+.logosize-2 {
+    height: 35px;
+    width: 35px;
+}
+
+.kitten-3 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2D2C3A;
+    width: 150px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: #2D2C3A;
+}
+
+.pen {
+    height: 40px;
+    padding-left: 15px;
+}
+
+.kitten-4 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2D2C3A;
+    width: 150px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: #2D2C3A;
+}
+
+
+.lion {
+    margin-top: 5.50em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.mouse {
+    font-size: 30px;
+    color: #febe00;
+}
+
+.mousy {
+    font-size: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bigmouse {
+    display: flex;
+    width: 100px;
+}
+
+.s-1 {
+    position: absolute;
+    left: 250px;
+}
+
+.pic-1 {
+    height: 90px;
+    width: 120px;
+}
+
+.span-x {
+    padding-left: 0.30em;
+}
+
+.minichild-1 {
+    display: flex;
+    align-items: center;
+    border-bottom: #322d31 1px solid;
+}
+
+.puppy {
+    font-size: 25px;
+}
+
+.pop {
+    font-size: 15px;
+}
+
+.pic-2 {
+    padding-left: 7.625em;
+}
+
+.minichild-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25em;
+    border-bottom: #322d31 1px solid;
+}
+
+.pic-3 {
+    padding-left: 5em;
+}
+
+.minichild-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25em;
+    border-bottom: #322d31 1px solid;
+}
+
+.pic-4 {
+    padding-left: 4em;
+}
+
+
+.teacher {
+    margin-top: 3.125em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.student-1 {
+    border: 1px solid #373646;
+    align-items: center;
+    width: 23vw;
+    height: 31vh;
+    position: relative;
+    background-color: #373646;
+}
+
+.imgx-1 {
+    width: 37px;
+    height: 37px;
+}
+
+.chair-1 {
+    border: 1px solid #292734;
+    background-color: #292734;
+    height: 37px;
+    width: 37px;
+    border-radius: 250px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.chair-2 {
+    position: absolute;
+    top: 70px;
+    font-weight: 300;
+    left: 20px;
+}
+
+.chair-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
+
+.student-2 {
+    border: 1px solid #373646;
+    align-items: center;
+    width: 23vw;
+    height: 31vh;
+    position: relative;
+    background-color: #373646;
+}
+
+.imgx-2 {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.desk-1 {
+    border: 1px solid #292734;
+    background-color: #292734;
+    height: 42px;
+    width: 42px;
+    border-radius: 250px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    position: relative;
+}
+
+.desk-2 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-weight: 300;
+}
+
+.desk-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
+
+.student-3 {
+    border: 1px solid #373646;
+    align-items: center;
+    width: 23vw;
+    height: 31vh;
+    position: relative;
+    background-color: #373646;
+}
+
+.imgx-3 {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+
+.mark-1 {
+    border: 1px solid #292734;
+    background-color: #292734;
+    height: 42px;
+    width: 42px;
+    border-radius: 250px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    position: relative;
+}
+
+.mark-2 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-weight: 300;
+}
+
+.mark-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
